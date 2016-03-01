@@ -187,10 +187,11 @@
                             <outlet property="delegate" destination="fJT-gA-NeT" id="wjv-uH-SN4"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="7oB-na-PhX"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cv8-JK-006" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-180" y="447"/>
+            <point key="canvasLocation" x="-143" y="478"/>
         </scene>
         <!--Head Line Controller-->
         <scene sceneID="TM9-ih-RLf">

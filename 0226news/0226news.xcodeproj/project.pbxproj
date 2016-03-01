@@ -18,6 +18,13 @@
 		243A56DA1C8079AC0052895F /* SLAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A56D91C8079AC0052895F /* SLAPIManager.m */; };
 		243A56DE1C807B800052895F /* SLHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A56DD1C807B800052895F /* SLHTTPManager.m */; };
 		247A9B7D1C85286F006447B5 /* SLNewsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247A9B7C1C85286F006447B5 /* SLNewsDetailController.m */; };
+		247A9B861C854122006447B5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247A9B851C854122006447B5 /* Home.storyboard */; };
+		247A9B891C854221006447B5 /* SLHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247A9B881C854221006447B5 /* SLHomeController.m */; };
+		247A9B8C1C85456A006447B5 /* SLChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 247A9B8B1C85456A006447B5 /* SLChannelModel.m */; };
+		247A9B8E1C8547FB006447B5 /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = 247A9B8D1C8547FB006447B5 /* detail.html */; };
+		247A9B901C85482A006447B5 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 247A9B8F1C85482A006447B5 /* topic_news.json */; };
+		247A9B931C8549BF006447B5 /* SLhannelNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 247A9B921C8549BF006447B5 /* SLhannelNewsCell.m */; };
+		247A9B961C857FB2006447B5 /* SLhannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 247A9B951C857FB2006447B5 /* SLhannelLabel.m */; };
 		248283501C8421F300DBD974 /* SLNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2482834F1C8421F300DBD974 /* SLNewsController.m */; };
 		248283531C8425C000DBD974 /* SLNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 248283521C8425C000DBD974 /* SLNewsCell.m */; };
 		248283561C8429BD00DBD974 /* SLNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 248283551C8429BD00DBD974 /* SLNewsModel.m */; };
@@ -46,6 +53,17 @@
 		243A56DD1C807B800052895F /* SLHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHTTPManager.m; sourceTree = "<group>"; };
 		247A9B7B1C85286F006447B5 /* SLNewsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNewsDetailController.h; sourceTree = "<group>"; };
 		247A9B7C1C85286F006447B5 /* SLNewsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNewsDetailController.m; sourceTree = "<group>"; };
+		247A9B851C854122006447B5 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		247A9B871C854221006447B5 /* SLHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLHomeController.h; sourceTree = "<group>"; };
+		247A9B881C854221006447B5 /* SLHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHomeController.m; sourceTree = "<group>"; };
+		247A9B8A1C85456A006447B5 /* SLChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLChannelModel.h; sourceTree = "<group>"; };
+		247A9B8B1C85456A006447B5 /* SLChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLChannelModel.m; sourceTree = "<group>"; };
+		247A9B8D1C8547FB006447B5 /* detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detail.html; sourceTree = "<group>"; };
+		247A9B8F1C85482A006447B5 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		247A9B911C8549BF006447B5 /* SLhannelNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLhannelNewsCell.h; sourceTree = "<group>"; };
+		247A9B921C8549BF006447B5 /* SLhannelNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLhannelNewsCell.m; sourceTree = "<group>"; };
+		247A9B941C857FB2006447B5 /* SLhannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLhannelLabel.h; sourceTree = "<group>"; };
+		247A9B951C857FB2006447B5 /* SLhannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLhannelLabel.m; sourceTree = "<group>"; };
 		2482834E1C8421F300DBD974 /* SLNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNewsController.h; sourceTree = "<group>"; };
 		2482834F1C8421F300DBD974 /* SLNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNewsController.m; sourceTree = "<group>"; };
 		248283511C8425C000DBD974 /* SLNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNewsCell.h; sourceTree = "<group>"; };
@@ -92,7 +110,8 @@
 		2406E9531C8015B40038594B /* 0226news */ = {
 			isa = PBXGroup;
 			children = (
-				243A56DB1C8079C00052895F /* Log */,
+				247A9B811C8540C8006447B5 /* Home */,
+				243A56DB1C8079C00052895F /* Tool */,
 				2406E96B1C8019700038594B /* news */,
 				2406E9571C8015B40038594B /* AppDelegate.h */,
 				2406E9581C8015B40038594B /* AppDelegate.m */,
@@ -107,6 +126,8 @@
 		2406E9541C8015B40038594B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				247A9B8F1C85482A006447B5 /* topic_news.json */,
+				247A9B8D1C8547FB006447B5 /* detail.html */,
 				2406E9551C8015B40038594B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -160,7 +181,7 @@
 			name = controller;
 			sourceTree = "<group>";
 		};
-		243A56DB1C8079C00052895F /* Log */ = {
+		243A56DB1C8079C00052895F /* Tool */ = {
 			isa = PBXGroup;
 			children = (
 				243A56D81C8079AC0052895F /* SLAPIManager.h */,
@@ -168,7 +189,47 @@
 				243A56DC1C807B800052895F /* SLHTTPManager.h */,
 				243A56DD1C807B800052895F /* SLHTTPManager.m */,
 			);
-			name = Log;
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		247A9B811C8540C8006447B5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				247A9B841C854101006447B5 /* Controller */,
+				247A9B831C8540FC006447B5 /* View */,
+				247A9B821C8540D2006447B5 /* model */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		247A9B821C8540D2006447B5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				247A9B8A1C85456A006447B5 /* SLChannelModel.h */,
+				247A9B8B1C85456A006447B5 /* SLChannelModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		247A9B831C8540FC006447B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				247A9B851C854122006447B5 /* Home.storyboard */,
+				247A9B941C857FB2006447B5 /* SLhannelLabel.h */,
+				247A9B951C857FB2006447B5 /* SLhannelLabel.m */,
+				247A9B911C8549BF006447B5 /* SLhannelNewsCell.h */,
+				247A9B921C8549BF006447B5 /* SLhannelNewsCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		247A9B841C854101006447B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				247A9B871C854221006447B5 /* SLHomeController.h */,
+				247A9B881C854221006447B5 /* SLHomeController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		86EE7A1BE8DD0BBEE2FB0B3F /* Frameworks */ = {
@@ -250,9 +311,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247A9B901C85482A006447B5 /* topic_news.json in Resources */,
 				2406E9701C8019DE0038594B /* news.storyboard in Resources */,
+				247A9B8E1C8547FB006447B5 /* detail.html in Resources */,
 				2406E9641C8015B40038594B /* LaunchScreen.storyboard in Resources */,
 				2406E9611C8015B40038594B /* Assets.xcassets in Resources */,
+				247A9B861C854122006447B5 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,8 +375,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247A9B931C8549BF006447B5 /* SLhannelNewsCell.m in Sources */,
 				248283531C8425C000DBD974 /* SLNewsCell.m in Sources */,
 				243A56DE1C807B800052895F /* SLHTTPManager.m in Sources */,
+				247A9B891C854221006447B5 /* SLHomeController.m in Sources */,
 				2406E9591C8015B40038594B /* AppDelegate.m in Sources */,
 				2406E9561C8015B40038594B /* main.m in Sources */,
 				243A56D71C8075700052895F /* SLHeadLineModel.m in Sources */,
@@ -322,7 +388,9 @@
 				243A56D41C806A270052895F /* SLHeadLineController.m in Sources */,
 				243A56DA1C8079AC0052895F /* SLAPIManager.m in Sources */,
 				247A9B7D1C85286F006447B5 /* SLNewsDetailController.m in Sources */,
+				247A9B8C1C85456A006447B5 /* SLChannelModel.m in Sources */,
 				248283561C8429BD00DBD974 /* SLNewsModel.m in Sources */,
+				247A9B961C857FB2006447B5 /* SLhannelLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

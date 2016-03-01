@@ -25,10 +25,14 @@
     
     [self loadData];
 }
-
+//- (void)setChannelId:(NSString *)channelId
+//{
+//    _channelId = channelId;
+//}
 - (void)loadData
 {
-    [SLNewsModel newsDataWithURL:@"article/headline/T1348647853363/0-100.html" success:^(NSArray *news) {
+//    NSLog(@"加载频道新闻%@",self.channelId);
+    [SLNewsModel newsDataWithURL:[NSString stringWithFormat:@"article/headline/%@/0-100.html",self.channelId] success:^(NSArray *news) {
         self.data = news;
         //刷新
         [self.tableView reloadData];
@@ -66,11 +70,10 @@
     SLNewsDetailController *detail = [[SLNewsDetailController alloc]init];
     detail.newsURL = model.fullURL;
     
-    
     //push
     [self.navigationController pushViewController:detail animated:YES];
-           NSLog(@"1跳到详情页");
     
 }
+
 
 @end

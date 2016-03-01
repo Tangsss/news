@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SLNewsController : UITableViewController
-
+@property(nonatomic,copy) NSString *channelId;///<频道id
 @end
