@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  0226news
+//  0228news
 //
-//  Created by Tang on 16/2/26.
+//  Created by Tang on 16/2/28.
 //  Copyright © 2016年 大天朝. All rights reserved.
 //
 
@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    // Override point for customization after application launch.
     return YES;
 }
 
