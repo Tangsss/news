@@ -12,7 +12,7 @@
 #import "SLNewsModel.h"
 #import "SLNewsCell.h"
 #import "SLNewsDetailController.h"
-#import "SLViewController.h"
+
 
 @interface SLNewsController ()
 @property(nonatomic,strong) NSArray *data;
@@ -66,9 +66,9 @@
     SLNewsDetailController *detail = [[SLNewsDetailController alloc]init];
     detail.newsURL = model.fullURL;
     
-    SLViewController *sc = [[SLViewController alloc]init];
+    
     //push
-    [self.navigationController pushViewController:sc animated:YES];
+    [self.navigationController pushViewController:detail animated:YES];
            NSLog(@"1跳到详情页");
     
 }

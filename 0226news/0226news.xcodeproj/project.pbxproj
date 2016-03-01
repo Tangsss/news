@@ -18,7 +18,6 @@
 		243A56DA1C8079AC0052895F /* SLAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A56D91C8079AC0052895F /* SLAPIManager.m */; };
 		243A56DE1C807B800052895F /* SLHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A56DD1C807B800052895F /* SLHTTPManager.m */; };
 		247A9B7D1C85286F006447B5 /* SLNewsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247A9B7C1C85286F006447B5 /* SLNewsDetailController.m */; };
-		247A9B801C853D29006447B5 /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247A9B7F1C853D29006447B5 /* SLViewController.m */; };
 		248283501C8421F300DBD974 /* SLNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2482834F1C8421F300DBD974 /* SLNewsController.m */; };
 		248283531C8425C000DBD974 /* SLNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 248283521C8425C000DBD974 /* SLNewsCell.m */; };
 		248283561C8429BD00DBD974 /* SLNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 248283551C8429BD00DBD974 /* SLNewsModel.m */; };
@@ -47,8 +46,6 @@
 		243A56DD1C807B800052895F /* SLHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHTTPManager.m; sourceTree = "<group>"; };
 		247A9B7B1C85286F006447B5 /* SLNewsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNewsDetailController.h; sourceTree = "<group>"; };
 		247A9B7C1C85286F006447B5 /* SLNewsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNewsDetailController.m; sourceTree = "<group>"; };
-		247A9B7E1C853D29006447B5 /* SLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
-		247A9B7F1C853D29006447B5 /* SLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
 		2482834E1C8421F300DBD974 /* SLNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNewsController.h; sourceTree = "<group>"; };
 		2482834F1C8421F300DBD974 /* SLNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNewsController.m; sourceTree = "<group>"; };
 		248283511C8425C000DBD974 /* SLNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNewsCell.h; sourceTree = "<group>"; };
@@ -159,8 +156,6 @@
 				2482834F1C8421F300DBD974 /* SLNewsController.m */,
 				247A9B7B1C85286F006447B5 /* SLNewsDetailController.h */,
 				247A9B7C1C85286F006447B5 /* SLNewsDetailController.m */,
-				247A9B7E1C853D29006447B5 /* SLViewController.h */,
-				247A9B7F1C853D29006447B5 /* SLViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -321,7 +316,6 @@
 				2406E9591C8015B40038594B /* AppDelegate.m in Sources */,
 				2406E9561C8015B40038594B /* main.m in Sources */,
 				243A56D71C8075700052895F /* SLHeadLineModel.m in Sources */,
-				247A9B801C853D29006447B5 /* SLViewController.m in Sources */,
 				241DC25B1C82C04E001CB3AB /* SLHeadLineCell.m in Sources */,
 				248283501C8421F300DBD974 /* SLNewsController.m in Sources */,
 				248283591C84343C00DBD974 /* SLNewsImageModel.m in Sources */,
